@@ -1,5 +1,17 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  padding: 36px;
+  gap: 48px;
+}
+
+.text{
+  max-width: 200px; /* Using width will cause overflowing, instead use max-width for flexibility */
 }
 
 img {
